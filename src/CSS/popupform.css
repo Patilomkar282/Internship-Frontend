@@ -1,4 +1,4 @@
-/* Overlay Styling */
+
 .popup-overlay {
     position: fixed;
     top: 0;
@@ -12,7 +12,7 @@
     z-index: 1000;
   }
   
-  /* Container Styling */
+ 
   .popup-container {
     background: #fff;
     border-radius: 12px;
@@ -24,7 +24,7 @@
     animation: fadeIn 0.3s ease-in-out;
   }
   
-  /* Close Button Styling */
+ 
   .close-btn {
     position: absolute;
     top: 10px;
@@ -40,7 +40,7 @@
     color: #ff6b6b;
   }
   
-  /* Form Title and Subtitle */
+  
   .form-title {
     font-size: 1.8rem;
     font-weight: bold;
@@ -56,14 +56,14 @@
     margin-bottom: 20px;
   }
   
-  /* Form Styling */
+
   .popup-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   
-  /* Input Fields */
+ 
   .form-row {
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@
     box-shadow: 0 0 4px rgba(255, 107, 107, 0.4);
   }
   
-  /* Gender Options */
+ 
   .gender-options {
     display: flex;
     justify-content: space-between;
@@ -104,7 +104,7 @@
     gap: 5px;
   }
   
-  /* Language Options */
+  
   .language-options {
     display: flex;
     flex-direction: column;
@@ -119,7 +119,7 @@
     gap: 5px;
   }
   
-  /* Email Field */
+ 
   .email-field label {
     font-size: 0.9rem;
     color: #555;
@@ -133,7 +133,7 @@
     color: #333;
   }
   
-  /* Terms and Conditions */
+ 
   .terms-container {
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@
     text-decoration: underline;
   }
   
-  /* Submit Button */
+
   .submit-btn {
     background: #ff6b6b;
     color: #fff;
@@ -169,7 +169,7 @@
     background: #e65a5a;
   }
   
-  /* Confirmation Message */
+  
   .confirmation-message {
     text-align: center;
   }
@@ -186,7 +186,7 @@
     color: #666;
   }
   
-  /* Animation */
+  
   @keyframes fadeIn {
     from {
       opacity: 0;
