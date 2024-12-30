@@ -9,7 +9,7 @@ const PopupForm = ({ onFormSubmit, onClose }) => {
     email: "",
   });
 
-  const [isSubmitted, setIsSubmitted] = useState(false); // State for Thank You message
+  const [isSubmitted, setIsSubmitted] = useState(false); 
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -21,8 +21,8 @@ const PopupForm = ({ onFormSubmit, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onFormSubmit(formValues); // Pass the form data to the parent component
-    setIsSubmitted(true); // Show Thank You message
+    onFormSubmit(formValues); 
+    setIsSubmitted(true);
     setFormValues({
       fullName: "",
       number: "",
@@ -33,7 +33,7 @@ const PopupForm = ({ onFormSubmit, onClose }) => {
 
   const handleCloseThankYou = () => {
     setIsSubmitted(false);
-    onClose(); // Close the popup
+    onClose(); 
   };
 
   return (
