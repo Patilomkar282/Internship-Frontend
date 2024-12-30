@@ -2,7 +2,7 @@ import React from "react";
 import "../CSS/tablecomponent.css";
 
 const TableComponent = ({ data }) => {
-    console.log(data); // Check the passed data
+    console.log(data); 
     return (
       <div className="table-container">
         <h3>User Details</h3>
