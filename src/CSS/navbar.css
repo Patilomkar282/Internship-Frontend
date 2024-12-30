@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@ body {
     z-index: 1000;
   }
   
-  /* Logo Section */
+ 
   .navbar-logo {
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ body {
     color: #333333;
   }
   
-  /* Links Section */
+  
   .navbar-links {
     display: flex;
     list-style: none;
@@ -57,7 +57,7 @@ body {
     color: #ff5252;
   }
   
-  /* Buttons Section */
+ 
   .navbar-buttons {
     display: flex;
     gap: 10px;
@@ -94,7 +94,7 @@ body {
     background-color: #e64545;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
