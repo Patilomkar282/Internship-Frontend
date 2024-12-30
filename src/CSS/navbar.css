@@ -1,0 +1,143 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo Section */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin-right: 8px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Links Section */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff5252;
+  }
+  
+  /* Buttons Section */
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    color: #ff5252;
+    border: 1px solid #ff5252;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #ff5252;
+    color: #ffffff;
+  }
+  
+  .signup-btn {
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #e64545;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-logo {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .navbar-links li {
+      margin: 5px 0;
+    }
+  
+    .navbar-buttons {
+      flex-direction: column;
+      width: 100%;
+      gap: 5px;
+    }
+  
+    .login-btn, .signup-btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo-text {
+      font-size: 16px;
+    }
+  
+    .navbar-links a {
+      font-size: 12px;
+    }
+  
+    .login-btn, .signup-btn {
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+  
