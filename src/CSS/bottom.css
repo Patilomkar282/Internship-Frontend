@@ -1,4 +1,4 @@
-/* Container styling */
+
 .hero-container {
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
     border-radius: 8px;
   }
   
-  /* Text content styling */
+
   .hero-text {
     flex: 1;
   }
